@@ -1,0 +1,3 @@
+token: "sampletoken"
+reportendpoint: "https://backend-challenge.line-apps.com/healthcheck/report"
+timeout: 30
