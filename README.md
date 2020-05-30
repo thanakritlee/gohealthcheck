@@ -21,6 +21,17 @@ Currently there exist 3 configuration settings that you must specify:
 - reportendpoint - the API endpoint for sending the health check result.
 - timeout - the request time out value in seconds.
 
+## Input file
+
+### CSV
+
+For CSV input file the expected format is a a link to a website per row, with no other column. An example is shown below:
+
+```csv
+https://www.google.com/
+https://www.google.com/
+```
+
 ## Run
 
 ```sh
