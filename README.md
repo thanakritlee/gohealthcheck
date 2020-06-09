@@ -2,6 +2,10 @@
 
 A console program implemented in Go for checking the health status of websites given a CSV file input as argument.
 
+## Background
+
+This application was done as part of a take home assignment for Line Man in May 2020.
+
 ## Prerequisites
 - Go 1.14.3
 
