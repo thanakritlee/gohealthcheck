@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"encoding/json"
 	"errors"
-	"gohealthcheck/reporter"
+	"gohealthcheck/pkg/reporter"
 	"net/http"
 
 	"golang.org/x/xerrors"

@@ -2,7 +2,7 @@ package console
 
 import (
 	"fmt"
-	"gohealthcheck/reporter"
+	"gohealthcheck/pkg/reporter"
 )
 
 // Reporter implements the reporter.Reporter interface.

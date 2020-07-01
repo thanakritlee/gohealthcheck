@@ -1,13 +1,13 @@
 package healthchecker
 
 import (
-	"gohealthcheck/checker"
-	"gohealthcheck/checker/sitechecker"
-	"gohealthcheck/reader"
-	"gohealthcheck/reader/csvreader"
-	"gohealthcheck/reporter"
-	"gohealthcheck/reporter/console"
-	httpReporter "gohealthcheck/reporter/http"
+	"gohealthcheck/pkg/checker"
+	"gohealthcheck/pkg/checker/sitechecker"
+	"gohealthcheck/pkg/reader"
+	"gohealthcheck/pkg/reader/csvreader"
+	"gohealthcheck/pkg/reporter"
+	"gohealthcheck/pkg/reporter/console"
+	httpReporter "gohealthcheck/pkg/reporter/http"
 	"net/http"
 	"sync"
 	"time"

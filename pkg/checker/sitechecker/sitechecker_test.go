@@ -1,8 +1,8 @@
 package sitechecker_test
 
 import (
-	"gohealthcheck/checker"
-	"gohealthcheck/checker/sitechecker"
+	"gohealthcheck/pkg/checker"
+	"gohealthcheck/pkg/checker/sitechecker"
 	"testing"
 
 	"golang.org/x/xerrors"

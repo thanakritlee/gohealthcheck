@@ -3,12 +3,12 @@ package http_test
 import (
 	"encoding/json"
 	"fmt"
-	"gohealthcheck/reporter"
+	"gohealthcheck/pkg/reporter"
 	"net/http"
 	"net/http/httptest"
 	"testing"
 
-	h "gohealthcheck/reporter/http"
+	h "gohealthcheck/pkg/reporter/http"
 
 	. "gopkg.in/check.v1"
 )

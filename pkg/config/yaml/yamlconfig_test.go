@@ -1,7 +1,7 @@
 package yaml_test
 
 import (
-	"gohealthcheck/utility/config/yaml"
+	"gohealthcheck/pkg/config/yaml"
 	"io/ioutil"
 	"os"
 	"path/filepath"

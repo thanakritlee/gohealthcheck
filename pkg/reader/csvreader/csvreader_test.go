@@ -1,7 +1,7 @@
 package csvreader_test
 
 import (
-	"gohealthcheck/reader/csvreader"
+	"gohealthcheck/pkg/reader/csvreader"
 	"io/ioutil"
 	"os"
 	"path/filepath"

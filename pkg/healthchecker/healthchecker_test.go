@@ -3,8 +3,8 @@ package healthchecker_test
 import (
 	"encoding/json"
 	"fmt"
-	"gohealthcheck/healthchecker"
-	"gohealthcheck/reporter"
+	"gohealthcheck/pkg/healthchecker"
+	"gohealthcheck/pkg/reporter"
 	"io/ioutil"
 	"log"
 	"net/http"

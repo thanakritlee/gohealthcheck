@@ -2,8 +2,8 @@ package sitechecker
 
 import (
 	"errors"
-	"gohealthcheck/checker"
-	yamlConfig "gohealthcheck/utility/config/yaml"
+	"gohealthcheck/pkg/checker"
+	yamlConfig "gohealthcheck/pkg/config/yaml"
 	"net/http"
 	"net/url"
 	"strconv"
@@ -37,6 +37,9 @@ func (s *SiteChecker) Check(checkee checker.Checkee) (bool, error) {
 
 	config := yamlConfig.Config{}
 	timeOutConfig := config.GetConfig("timeout")
+	if timeOutConfig == "" {
+		timeOutConfig = "30"
+	}
 	timeOut, err := strconv.ParseInt(timeOutConfig, 10, 64)
 	if err != nil {
 		return false, xerrors.Errorf("SiteChecker.Check: %w", err)

@@ -12,13 +12,14 @@ This application was done as part of a take home assignment for Line Man in May 
 ## Setup
 
 ```sh
+cd ./cmd/healthcheckline/
 go build
 ```
 
 The above commands will build the binary from the Go code.
 
 ## Configuration
-Included in the current directory exist a file called `appsettings.yaml`. This file is use for specifying the configurations that are used in the program.
+Included in `./configs/` exist a file called `appsettings.yaml`. This file is use for specifying the configurations that are used in the program.
 
 Currently there exist 3 configuration settings that you must specify:
 - token - this is the API token received from Line Login.
@@ -39,7 +40,8 @@ https://www.google.com/
 ## Run
 
 ```sh
-./gohealthcheck input.csv
+cd ./cmd/healthcheckerline/
+./gohealthcheck /path/to/file/input.csv
 ```
 
 Assuming that your input file which contain a list of web sites you want to check is called `input.csv`. The above command will run the program binary with the input file.

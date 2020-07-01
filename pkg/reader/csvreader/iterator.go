@@ -3,7 +3,7 @@ package csvreader
 import (
 	"encoding/csv"
 	"errors"
-	"gohealthcheck/reader"
+	"gohealthcheck/pkg/reader"
 	"os"
 
 	"golang.org/x/xerrors"
